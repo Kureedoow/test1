@@ -1,0 +1,258 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 1320px;
+  margin: auto;
+}
+.box{
+  display: flex;
+}
+
+nav{
+  background: rgb(255, 218, 116);
+
+  padding: 50px 0px;
+}
+.logo{
+  width: 20%;
+  font-size: 50px;
+  font-family: tahoma;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  text-align: right;
+
+}
+
+.menubar{
+  width: 60%;
+ margin-top: 25px;
+ display: flex;
+ justify-content: center;
+ text-align: left;
+
+}
+
+.btn{
+  width: 20%;
+ margin-top: 25px;
+ text-align: right;
+}
+.menubar ul{
+  display: flex;
+  column-gap: 40px;
+  list-style: none;
+ font-size: 25px;
+ font-family: tahoma;
+ font-weight: 100;
+
+}
+.menubar ul li{
+
+}
+.btn a{
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0px 5px;
+  background: rgb(255, 224, 124);
+  font-size: 20px;
+  font-family: tahoma;
+  font-weight: 100;
+  border-radius: 5px;
+  border: 1px solid rgb(141, 135, 135);
+  
+  
+}
+.btn a:hover{
+  background: rgb(248, 224, 88);
+}
+
+
+
+/* banner style starts here */
+.banner{
+  background: rgb(255, 218, 116);
+}
+   .banner .left{
+    width: 50%;
+    
+   }
+
+   
+   .banner .right{
+    width: 50%;
+  
+   }
+
+   .banner .left h1{
+    font-size: 50px;
+    font-family: tahoma;
+    font-weight: 500;
+   }
+
+   
+   .banner .left p{
+    font-size: 20px;
+    font-family: tahoma;
+    font-weight: 400;
+   }
+
+   
+   .banner .left a{
+    text-decoration: none;
+    padding-top: 25PX  91PX;
+    font-size: 25px;
+    font-family: tahoma;
+    font-weight: 200;
+    color: white;
+    background: black;
+    padding: 15px 50px;
+    border-radius: 10px;
+
+}
+
+.banner .left a:hover{
+  background: gold;
+}
+
+/* main starts here */
+.n1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-family: tahoma;
+  font-weight: 600;
+}
+
+.n2 .left{
+  width: 33.3%;
+}
+
+
+.n2 .medium{
+  width: 33.4%;
+}
+
+.n2 .right{
+  width: 33.4%;
+}
+
+
+/* midle main starts here */
+ 
+.icon, img{
+  display: flex;
+  margin: auto;
+  
+}
+.n3 .left{
+width: 60%;
+}
+
+
+.n3 .right{
+  width: 40%;
+  }
+
+
+  .n3 h1{
+    font-size: 100px;
+    font-family: tahoma;
+    font-weight: 400;
+  }
+  
+
+  .n3 p{
+    font-size: 20px;
+    font-family: tahoma;
+    font-weight: 400;
+  }
+
+
+  /* last part formtion hare  */
+
+  .n4{
+
+     background: #CFA485;
+    padding: 25px 20px;
+  }
+  .n4 .left{
+    width: 40%;
+  }
+  
+  .n4 .medium{
+    width: 45%;
+  }
+  
+  .n4 .right{
+    width: 20%;
+  }
+
+  .second-dots{
+    margin: 0;
+  }
+
+
+  .n4  .left h2{
+  font-size: 60px;
+  font-family: tahoma;
+  font-weight: 400;
+  }
+  
+  .n4  .left p{
+    font-size: 30px;
+    font-family: tahoma;
+    font-weight: 400;
+    color: white;
+    }
+
+    
+  .n4  .left a{
+    font-size: 30px;
+    font-family: tahoma;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    background: black;
+    padding: 25px 50px;
+  
+    border-radius: 10px;
+    }
+    .n4  .left a:hover{
+      background: magenta;
+    }
+
+
+    .n4 .medium img{
+      border-radius: 30px;
+    }
+
+    
+
+    .n4 .right img{
+      border-radius: 30px;
+    }
+
+
+
+
+    .create{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+      font-family: tahoma;
+      font-weight: 600;
+      text-decoration: none;
+      cursor: pointer;
+      color: blue;
+      background:  rgb(255, 224, 124);
+      margin:  auto;
+    }
+    .create:hover{
+      background: gold;
+    }
